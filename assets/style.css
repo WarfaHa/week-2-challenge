@@ -1,3 +1,10 @@
+/* color scheme sourced from http://khroma.co/generator/ */
+:root {
+    --outer-space: #33393f;
+    --bright-turquoise: #2aefcb;
+    --gin: #e0eae4;
+    --heliotrope: #e866ec;
+  }
 * {
     box-sizing: border-box;
   }
@@ -27,12 +34,15 @@
   .card {
     flex: 1 0 0;
     padding: 10px;
-    text-align: center;
+    text-align: left;
     border-style: solid;
     border-width: 1px;
   }
   
-  .card header {
+  .card:hover{
+    box-shadow: inset 0px 0px 8px var(--bright-turquoise), 0 0 15px var(--bright-turquoise);
+  }
+  .card footer {
     padding: 20px;
     background: #13293d;
     color: #fff;
