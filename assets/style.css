@@ -24,8 +24,9 @@
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 60px;
-    background: #13293d;
-    color: #fff;
+    /* Added background image for texture */
+    background-image:url(images/wood-blue.jpg);
+    color: Black;
   }
   
   .card {
@@ -41,8 +42,8 @@
   }
   .card footer {
     padding: 20px;
-    background: #13293d;
-    color: #fff;
+    background: #87CEFA;
+    color: Black;
   }
   
   .card img {
