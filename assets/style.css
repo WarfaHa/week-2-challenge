@@ -19,7 +19,6 @@
   }
   
   .main-header {
-    display: flex;
     /* Forces elements to the next line if they don't fit */
     flex-wrap: wrap;
     justify-content: space-between;
@@ -28,9 +27,30 @@
     background-image:url(images/wood-blue.jpg);
     color: Black;
   }
-  
+  /* I labeled it 'nav'
+to separate it from my other selectors*/
+.main-header nav {
+  padding-top: 15px;
+  /* Aligns it to the right */
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+/* Navigation lists */
+.main-header nav ul {
+  list-style-type: none;
+}
+
+.main-header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+
   .card {
-    flex: 1 0 0;
+    flex: 1 0 33%;
+    flex-grow: 3;
     padding: 10px;
     text-align: left;
     border-style: solid;
@@ -40,6 +60,7 @@
   .card:hover{
     box-shadow: inset 0px 0px 8px var(--bright-turquoise), 0 0 15px var(--bright-turquoise);
   }
+  
   .card footer {
     padding: 20px;
     background: #87CEFA;
@@ -48,6 +69,6 @@
   
   .card img {
     width: 100%;
-    min-width: 400px;
+    min-width: 250px;
   }
   
