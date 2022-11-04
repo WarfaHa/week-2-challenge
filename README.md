@@ -14,7 +14,7 @@ As a student, I wanted to build a professional portfolio to showcase my skills a
 
 ## Screenshot and Deployed Link
 
-![Screenshot-of-Portfolio](/assets/images)
+![Screenshot-of-Portfolio](/assets/images/ScreenshotPortfolio.png)
 
 
 ## Installation
