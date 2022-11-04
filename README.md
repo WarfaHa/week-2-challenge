@@ -15,6 +15,8 @@ As a student, I wanted to build a professional portfolio to showcase my skills a
 ## Screenshot
 
 ![Screenshot-of-Portfolio](/assets/ScreenshotPortfolio.png)
+Deployed Site:
+https://warfaha.github.io/week-2-challenge/
 
 ## Installation
 N/A 
