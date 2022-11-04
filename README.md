@@ -12,9 +12,10 @@ As a student, I wanted to build a professional portfolio to showcase my skills a
 4. Credits
 5. License
 
-## Screenshot
+## Screenshot and Deployed Link
 
 ![Screenshot-of-Portfolio](/assets/images)
+
 
 ## Installation
 N/A 
@@ -26,7 +27,7 @@ General site which has responsives buttons showcasing my many projects made thro
 
 ## Credits
 
-Cite any images used in this repo  
+All Images used were royalty free provided by https://pixabay.com/
 
 ## License
 

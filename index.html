@@ -6,20 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
     <title> Professional Portfolio </title>
-    <link rel="stylesheet" href="./assets/reset.css"/>
     <link rel="stylesheet" href="./assets/style.css" />
 </head>
 <body>
+  <!-- Added semantic elements of header and navigation sections-->
     <header class="main-header">
         <h1>Welcome to my Portfolio!</h1>
-        <h2>Navagation Links!</h2>
+        <nav>
+          <ul>
+              <li>
+                  <a href="#about">About Me</a>
+              </li>
+              <li>
+                  <a href="#work">Work</a>
+              </li>
+              <li>
+                  <a href="#contact">Contact Me</a>
+              </li>
+              <li>
+                <a href="#resume">Resume</a>
+            </li>
+          </ul>
+      </nav>
       </header>
       <!-- Second Header for About Me section -->
   <header> 
-    About Me 
+    <!-- links to my navigation bar -->
+    <section id="about">
+      <h2>About Me:  </h2> 
+      <p>Hi I'm Warfa and I'm a current student of the OSU FullStack Bootcamp</p>
+    </section>
   </header>
       <main>
-        <section class="card">
+        <!-- links to my navigation bar -->
+        <section id="work" class="card">
           <img src="./assets/images/Weather.jpg" alt="camera" />
           <footer>Weather Forecast</footer>
         </section>
@@ -45,5 +65,16 @@
         </section>
       </main>
 </body>
-<Footer>Contact Me</Footer>
+<Footer>
+  <!-- my footer links -->
+  <h2>Contact Me:</h2>
+  <nav>
+    <ul>
+      <li> <a href="#">614-598-2238</a></li>
+      <li> <a href="https://gmail.com/">Warfa60@gmail.com</a></li>
+      <li> <a href="https://github.com/">Github</a></li>
+      <li> <a href="https://www.linkedin.com/">Resume</a></li>
+    </ul>
+  </nav>
+</Footer>
 </html>
