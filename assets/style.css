@@ -57,7 +57,10 @@ to separate it from my other selectors*/
     border-width: 1px;
   }
   
+  /* Tutor helped me add opacity and cursor to hover */
   .card:hover{
+    opacity: 0.5;
+    cursor: pointer;
     box-shadow: inset 0px 0px 8px var(--bright-turquoise), 0 0 15px var(--bright-turquoise);
   }
   
